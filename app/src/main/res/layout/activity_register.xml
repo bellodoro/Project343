@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/appicon">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:textColor="#EFFBFB"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etName"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EFFBFB"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Username"
+        android:textColor="#EFFBFB"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:textColor="#EFFBFB"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Age"
+        android:textColor="#EFFBFB"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EFFBFB"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Gendar"
+        android:textColor="#EFFBFB"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etgander"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EFFBFB"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Hubby"
+        android:textColor="#EFFBFB"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ethubby"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:textColor="#EFFBFB"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:textColor="#EFFBFB"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:textColor="#EFFBFB"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:text="Register"
+        android:textColor="#EFFBFB"
+        android:textColorHighlight="#01DF01"
+        android:layout_width="85dp"
+        android:layout_height="39dp"
+        android:singleLine="false"
+        android:background="@drawable/button"
+        />
+    <Button
+        android:id="@+id/searchbarb"
+        android:text="Register"
+        android:textColor="#EFFBFB"
+        android:textColorHighlight="#01DF01"
+        android:layout_width="85dp"
+        android:layout_height="39dp"
+        android:singleLine="false"
+        android:background="@drawable/button"/>
+
+
+</LinearLayout>
