@@ -2,6 +2,8 @@ package example.com.project343;
 
 import android.app.ListActivity;
 import android.content.Context;
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,6 +30,9 @@ public class searchbar extends ListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Resources res = getResources();
+        Drawable drawable = res.getDrawable(R.drawable.stop);
 
 
 
