@@ -1,6 +1,7 @@
 package example.com.project343;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -26,8 +27,9 @@ public class Register extends Activity implements View.OnClickListener {
         etAge = (EditText) findViewById(R.id.etAge);
         etPassword =(EditText) findViewById(R.id.etPassword);
         bRigister = (Button) findViewById(R.id.bRegister);
-        searchbarb = (Button) findViewById(R.id.searchbarb);
 
+
+        bRigister.setOnClickListener(this);
 
     }
 
@@ -38,7 +40,8 @@ public class Register extends Activity implements View.OnClickListener {
             case R.id.bRegister:
 
                 break;
-            case R.id.searchbar:
+            case R.id.viewfrd:
+                startActivity(new Intent(this,searchbar.class));
 
                 break;
         }

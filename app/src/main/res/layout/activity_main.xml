@@ -47,13 +47,7 @@
         android:layout_height="43dp"
         android:textColor="#EFFBFB"
         android:background="@drawable/button"/>
-    <Button
-        android:id="@+id/searchbar"
-        android:text="Add a friend"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textColor="#ffff"
-        />
+
 
 
 

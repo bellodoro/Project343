@@ -81,21 +81,21 @@
         android:id="@+id/bRegister"
         android:text="Register"
         android:textColor="#EFFBFB"
-        android:textColorHighlight="#01DF01"
+        android:textColorHighlight="#EFFBFB"
         android:layout_width="85dp"
         android:layout_height="39dp"
         android:singleLine="false"
         android:background="@drawable/button"
         />
-    <Button
-        android:id="@+id/searchbarb"
-        android:text="Register"
-        android:textColor="#EFFBFB"
-        android:textColorHighlight="#01DF01"
-        android:layout_width="85dp"
-        android:layout_height="39dp"
-        android:singleLine="false"
-        android:background="@drawable/button"/>
+    <TextView
+        android:id="@+id/viewfrd"
+        android:layout_width="wrap_content"
+        android:text="view friends"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textColor="#CED8F6"/>
+
 
 
 </LinearLayout>

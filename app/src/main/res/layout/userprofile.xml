@@ -2,7 +2,117 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:id="@+id/gd"
+    android:background="@drawable/appicon">
 
 
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageButton"
+                android:layout_column="11"
+                android:background="@drawable/omar"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_below="@+id/tableLayout"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_alignStart="@+id/tableLayout"
+        android:layout_alignEnd="@+id/tableLayout">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="Omar"
+            android:id="@+id/textView"
+            android:layout_weight="0.17"
+            android:textColor="#EFFBFB"/>
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:text="26"
+            android:id="@+id/textView2"
+            android:layout_weight="0.25"
+            android:textColor="#EFFBFB"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="footboll"
+            android:id="@+id/textView3"
+            android:layout_weight="0.25"
+            android:textColor="#EFFBFB"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:id="@+id/textView4"
+            android:layout_weight="0.25"
+            android:textColor="#EFFBFB"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linearLayout"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageButton2"
+                android:background="@drawable/theo"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="308dp"
+            android:layout_height="71dp"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageButton3"
+                android:background="@drawable/bello"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <requestFocus
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
