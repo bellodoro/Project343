@@ -6,4 +6,6 @@
     <string name="title_activity_login">Login</string>
     <string name="title_activity_register">Register</string>
     <string name="search_bar">SearchBar</string>
+    <string name="user_profile">userprofile</string>
+    <string name="player_list">player_list</string>
 </resources>

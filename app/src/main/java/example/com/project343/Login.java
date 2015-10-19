@@ -3,6 +3,7 @@ package example.com.project343;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -13,9 +14,10 @@ import android.widget.TextView;
 
 public class Login extends Activity implements View.OnClickListener{
 
-    Button bLogin, searchbarb;
+    Button bLogin;
             EditText etUsername, etPassword;
     TextView tvRgisterLink;
+    private Login self;
 
 
     @Override
@@ -31,19 +33,20 @@ public class Login extends Activity implements View.OnClickListener{
 
         bLogin.setOnClickListener(this);
         tvRgisterLink.setOnClickListener(this);
+        self = this;
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-
             case R.id.bLogin:
 
                 break;
 
             case R.id.tvRigisterLink:
+                Log.d("MSG", "tvRigisterLink is clicked!!!!!!!");
 
-                startActivity(new Intent(this, Register.class));
+                startActivity(new Intent(self, Register.class));
 
                 break;
 
